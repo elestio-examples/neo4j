@@ -32,7 +32,9 @@ here what you need to fill:
 
 # Cypher
 
-You can read the <a href="https://neo4j.com/docs/getting-started/appendix/tutorials/guide-cypher-basics/" target="_blank">Cypher tutorial</a> to learn how it works
+Cypher®, is Neo4j’s query language, including how to create and query graphs.
+
+You can read the <a href="https://neo4j.com/docs/getting-started/appendix/tutorials/guide-cypher-basics/" target="_blank">Cypher tutorial</a> to learn how it works.
 
 # Curl
 
@@ -40,9 +42,9 @@ If you want to do a curl command, here is the format to follow:
 
     curl -X POST -H "Content-Type: application/json" -d '{
         "statements": [
-        {
-            "statement": <YOUR_QUERY>
-        }
+            {
+                "statement": <YOUR_QUERY>
+            }
         ]
     }' -u "neo4j:[ADMIN_PASSWORD]" https://[CI_CD_DOMAIN]/db/neo4j/tx/commit
 
@@ -56,8 +58,12 @@ it will be like this:
 
     curl -X POST -H "Content-Type: application/json" -d '{
         "statements": [
-        {
-            "statement": "MATCH (tom:Person) WHERE tom.name = \"Tom Hanks\" RETURN tom"
-        }
+            {
+                "statement": "MATCH (tom:Person) WHERE tom.name = \"Tom Hanks\" RETURN tom"
+            }
         ]
     }' -u "neo4j:[ADMIN_PASSWORD]" https://[CI_CD_DOMAIN]/db/neo4j/tx/commit
+
+# How to use from your codebase
+
+https://neo4j.com/developer/language-guides/
