@@ -9,7 +9,7 @@ ports:
     isAuth: false
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
-    listeningPort: "10676"
+    listeningPort: "7687"
     targetPort: "53621"
     targetIP: "172.17.0.1"
     public: true
