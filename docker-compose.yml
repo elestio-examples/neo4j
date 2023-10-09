@@ -2,6 +2,7 @@ version: "3"
 services:
   neo4j:
     image: neo4j:${SOFTWARE_VERSION_TAG}
+    container_name: neo4j
     restart: always
     environment:
       #   SECURE_FILE_PERMISSIONS=yes
