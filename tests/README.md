@@ -10,7 +10,7 @@
 
 [Neo4j](https://github.com/neo4j) is an open-source, NoSQL, native graph database that provides an ACID-compliant transactional backend for your applications.
 `
-<img src="https://github.com/elestio-examples/neo4j/raw/main/neo4j.jpg" alt="neo4j" width="800">
+<img src="https://github.com/elestio-examples/neo4j/blob/main/neo4j.jpg" alt="neo4j" width="800">
 
 Deploy a <a target="_blank" href="https://elest.io/open-source/neo4j">fully managed Neo4j</a> on <a target="_blank" href="https://elest.io/">elest.io</a> if you want a graph database that stores nodes and relationships instead of tables, or documents. Data is stored just like you might sketch ideas on a whiteboard. Your data is stored without restricting it to a pre-defined model, allowing a very flexible way of thinking about and using it.
 
