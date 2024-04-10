@@ -10,6 +10,7 @@ services:
     ports:
       - "172.17.0.1:27651:7474"
       - "172.17.0.1:53621:7687"
+      - "27687:7687"
     volumes:
       - ./neo4j/data:/data
       - ./neo4j/logs:/logs
